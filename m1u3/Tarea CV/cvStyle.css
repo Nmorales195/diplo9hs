@@ -1,0 +1,37 @@
+html {
+    background-color: #eff0f0;
+}
+
+.cabeza {
+    background-color: #2b9dc8;
+    color: #eff0f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.cuerpo {
+    display: flex;
+}
+
+.izq {
+    background-color: #2bc0c8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h3,
+h4 {
+    background-color: #a1dfdf;
+}
+
+.der {
+    background-color: #a1dfdf;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
