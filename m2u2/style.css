@@ -1,0 +1,48 @@
+div {
+    border-style: solid;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+
+p {
+    padding: 45px;
+    margin: 0px;
+}
+
+.ejercicio01 {
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.ejercicio02 {
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.ejercicio03 {
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.n1 {
+    background-color: red;
+    color: aliceblue;
+}
+
+.n2 {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.n3 {
+    background-color: green;
+    color: aliceblue;
+}
