@@ -1,0 +1,195 @@
+/*
+font-family: "Red Hat Display", sans-serif;
+*/
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: white;
+    margin-inline-end: auto;
+    padding: 16px;
+    
+}
+
+header img {
+    margin-top: -10px
+}
+
+header div {
+    display: inline-block;
+    position: relative;
+}
+
+header h1,
+header h5 {
+    font-weight: 500;
+    padding: 10px;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 60px;
+    color: #14607e;
+}
+
+header h5 {
+    font-size: 20px;
+    color: #122a3e;
+}
+
+nav {
+    background-color: #007193;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+    border-color: #007193;
+    border-style: solid;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+}
+
+nav ul li a.activo {
+    border-color: #007193;
+    border-style: solid;
+    color: #007193;
+    background-color: white;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.imagen {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 170px;
+}
+
+h2 {
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonio .autor {
+    text-align: center;
+    font-size: 10px;
+    display: block;
+    padding: 12px 0;
+}
+
+.historia p {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.persona img {
+    width: 125px;
+    height: 100px;
+    max-width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.persona h5,
+.persona h6 {
+    margin: 5px;
+    font-weight: normal;
+    color: #2e64a1;
+}
+
+.persona h5 {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.persona h6 {
+    font-size: 11px;
+    color: #122a3e;
+}
+
+.persona p {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-size: 10px;
+}
