@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio02</title>
+</head>
+
+<body>
+    <textarea id="textInput" rows="5" placeholder="Escribe algo..."></textarea>
+    <p id="charCount">Caracteres: 0</p>
+
+    <script>
+
+        const textInput = document.getElementById('textInput');
+        const charCount = document.getElementById('charCount');
+
+        function actualizarContador() {
+            const text = textInput.value;
+            const count = text.length;
+            charCount.textContent = `Caracteres: ${count}`;
+        }
+
+        textInput.addEventListener('input', actualizarContador);
+
+    </script>
+
+</body>
+
+</html>
